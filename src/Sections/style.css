@@ -1,0 +1,25 @@
+  .rotate-hover img{
+    transition: transform 0.3s ease; /* Optional: Add a smooth transition */
+  }
+
+  .rotate-hover:hover img{
+    transform: rotate(-45deg);
+  }
+
+.rotate-hover{
+    transition: transform 0.3s ease; /* Optional: Add a smooth transition */
+
+}
+
+.rotate-hover:hover{
+    transition: box-shadow 0.3s ease;
+        color: aliceblue;
+        box-shadow:
+        5px 5px rgba(255, 127, 80, 0.4),
+        10px 10px rgba(255, 99, 71, 0.3),
+        15px 15px rgba(255, 69, 0, 0.2),
+        20px 20px rgba(255, 0, 0, 0.1),
+        25px 25px rgba(220, 20, 60, 0.05);
+          
+      
+}
