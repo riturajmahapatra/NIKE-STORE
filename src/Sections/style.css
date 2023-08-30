@@ -8,11 +8,10 @@
 
 .rotate-hover{
     transition: transform 0.3s ease; /* Optional: Add a smooth transition */
-
+    transition: box-shadow 0.3s ease;
 }
 
 .rotate-hover:hover{
-    transition: box-shadow 0.3s ease;
         color: aliceblue;
         box-shadow:
         5px 5px rgba(255, 127, 80, 0.4),
